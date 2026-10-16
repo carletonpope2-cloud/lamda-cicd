@@ -23,6 +23,5 @@ Resources:
 
 Outputs:
   S3BucketName:
-    Value: !Ref MyS3Bucket
     Description: "The name of the S3 bucket."
     Value: !Ref MyS3Bucket
