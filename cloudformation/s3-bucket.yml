@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: '2010-09-09'
-Description: "S3 bucket for CICD Pull Requests."
+Description: "S3 bucket with environment tags."
 
 Parameters:
   BucketName:
@@ -25,3 +25,4 @@ Outputs:
   S3BucketName:
     Value: !Ref MyS3Bucket
     Description: "The name of the S3 bucket."
+    Value: !Ref MyS3Bucket
