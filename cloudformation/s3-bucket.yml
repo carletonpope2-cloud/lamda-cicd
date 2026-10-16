@@ -6,9 +6,9 @@ Parameters:
     Type: String
     Default: "test"
     AllowedValues:
-      - "test"
-      - "production"
-      - "staging"
+    - "test"
+    - "production"
+    - "staging"
       
 Resources:
   MyS3Bucket:
