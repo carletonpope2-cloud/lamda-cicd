@@ -17,9 +17,9 @@ Resources:
       BucketName: !Sub '${AWS::StackName}-${Environment}-bucket'
       Tags:
         - Key: Environment
-          Value: Environment
+          Value: !Ref Environment
         - Key: Project
-          Value: GitHubPRTest2
+          Value: GitHubPRTest1
 
 Outputs:
   S3BucketName:
