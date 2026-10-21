@@ -19,7 +19,7 @@ Resources:
         - Key: Environment
           Value: !Ref Environment
         - Key: Project
-          Value: GitHubPRTest1
+          Value: GitHubPRTest2
 
 Outputs:
   S3BucketName:
